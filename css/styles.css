@@ -1,0 +1,127 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    min-width: 400px; /* Prevents window from shrinking below 500px */
+    color: #676767; /* Dim Gray for text */
+}
+
+body {
+    padding-top: 10px; /* Adjust based on navbar height */
+}
+
+main {
+    margin-top: 20px;
+}
+/* Header & Banner Styling */
+.banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #003B6D; /* Midnight Blue */
+    padding: 10px;
+    text-align: center;
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+    margin-bottom: 1px; /* Adjust if needed */
+}
+
+/* Headings */
+h1, h2 {
+    color: #003B6D; /* Midnight Blue */
+}
+
+/* Line Breaks */
+hr {
+    border: 1px solid #6699CC; /* Blue Sky */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: #6699CC !important; /* Blue Sky */
+    color: white;
+    padding: 10px;
+    margin-top: 10px; /* Adjust spacing below the banner */
+}
+
+.navbar a {
+    color: #BDBDBD !important; /* Silver */
+}
+
+.navbar a:hover {
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    color: #003B6D !important; /* Midnight Blue */
+    font-weight: bold;
+    border-bottom: 2px solid #BDBDBD; /* Silver */
+}
+
+
+.page-title {
+    font-size: 1.8rem;
+    color: #003B6D; /* Midnight Blue */
+    text-align: center;
+    border-bottom: 2px solid #BDBDBD; /* Silver */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer Stick to Bottom */
+.footer {
+    background-color: #676767; /* Dim Gray */
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 700px) {
+    #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {
+        display: none;
+    }
+    #pet-img-11, #pet-img-12, #pet-img-13, #pet-img-14 {
+        display: none;
+    }
+
+    .banner-container img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 800px) {
+    #pet-img-3, #pet-img-4, #pet-img-5 {
+        display: none;
+    }
+    #pet-img-11, #pet-img-12, #pet-img-13 {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #pet-img-3, #pet-img-4 {
+        display: none;
+    }
+    #pet-img-11, #pet-img-12 {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    #pet-img-3  {
+        display: none;
+    }
+    #pet-img-11 {
+        display: none;
+    }
+}
