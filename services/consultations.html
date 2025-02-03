@@ -93,42 +93,43 @@
     </div>
 
       <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md  fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Paradigm Pet Professionals</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pets/dogs.html">Dogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pets/cats.html">Cats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pets/birds.html">Birds</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../about/index.html">About</a>
-            </li>
-
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          
-          <!-- Pushes "Book a Consultation" button to the far right -->
-          <a href="booking.html" class="btn btn-primary ms-3">Book a Consultation</a>
-
+      <nav class="navbar navbar-expand-md  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Paradigm Pet Professionals</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pets/dogs.html">Dogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pets/cats.html">Cats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pets/birds.html">Birds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about/index.html">About</a>
+              </li>
+  
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="btn-search" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+            <!-- Pushes "Book a Consultation" button to the far right -->
+            <a id="btn-consultation" href="booking.html" class="btn btn-outline-success ms-3">Book a Consultation</a>
+  
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
   </header>
 
@@ -138,39 +139,50 @@
 
         <!--
         <div class="image-container">
-            <img src="https://via.placeholder.com/400" alt="Imagen de contacto">
+            <img src="../img/contact/black-cat-holding-letter.jpeg" alt="pet image">
         </div>
         -->
-        <div class="contact-container">
-            <div class="image-container">
+        <div class="contact-form-container">
+            <div class="contact-image-container">
                 <!-- Contenedor de la imagen con transición -->
                 <div class="slideshow"></div>
-        </div>
+            </div>
 
         <div class="form-container">
-            <h2>Formulario de Contacto</h2>
+            <h2>Book a consultation</h2>
+            
+            <div id="sm-screens-contact-img">
+                <!-- images in a column -->
+                <img src="../img/contact/black-cat-holding-letter.jpeg " width="125" height="auto" alt="cat holding letter">
+                <img src="../img/contact/cat_holding_letetr.jpeg" width="125" height="auto" alt="cat holding letter">
+                <img src="../img/contact/dog_holding_letter.png" width="125" height="auto" alt="dog holding letter">
+                <img src="../img/contact/pigeon-carring-letter.jpeg" width="125" height="auto" alt="pigeon holding letter">
+            </div>
+
             <form action="#" method="post">
                 <div class="form-group">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Name</label>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Correo Electrónico:</label>
+                    <label for="email">email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefono">Teléfono:</label>
+                    <label for="telefono">Phone</label>
                     <input type="tel" id="telefono" name="telefono" required>
                 </div>
-                <button type="submit">Enviar</button>
+                <button type="submit">Send</button>
             </form>
         </div>
+
     </div>
+
 </main>
 
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">&copy AIquilibrium. Feb 2, 2025</span>
+    <span class="text-muted">&copy teofrancis-dev. Feb 3, 2025</span>
   </div>
 </footer>
 
