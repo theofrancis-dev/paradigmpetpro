@@ -84,6 +84,11 @@ hr {
     padding: 10px 0;
 }
 
+/* consultation button on navbar */
+#btn-consultation {
+    background-color: #003B6D;
+}
+
 /* Mobile Adjustments */
 @media (max-width: 700px) {
     #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {
