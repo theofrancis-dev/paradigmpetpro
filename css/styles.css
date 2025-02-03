@@ -125,3 +125,103 @@ hr {
         display: none;
     }
 }
+
+
+/* styles for consultation.html -contact form- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: changeImage 20s infinite; /* Cambia cada 3 segundos (3 imágenes x 3s) */
+}
+
+@keyframes changeImage {
+    0%, 33% {
+        background-image: url('../img/contact/cat_holding_letetr.jpeg'); /* Imagen 1 */
+    }
+    34%, 66% {
+        background-image: url('../img/contact/dog_holding_letter.png'); /* Imagen 2 */
+    }
+    67%, 100% {
+        background-image: url('../img/contact/pigeon-carring-letter.jpeg'); /* Imagen 3 */
+    }
+    /*
+    100% {
+        background-image: url('../img/contact/cat_holding_letetr.jpeg'); /* Vuelve a la Imagen 1 
+    }
+        */
+
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6699CC;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6699CC;
+}
