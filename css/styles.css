@@ -275,6 +275,11 @@ button:hover {
     min-height: 796px;
 }
 
+.accordion-img {
+    height: 400px;
+    width: auto;
+}
+
 /* Mobile Adjustments */
 @media (max-width: 849px) {
     #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {

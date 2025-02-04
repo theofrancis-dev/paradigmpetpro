@@ -64,6 +64,45 @@
       "telephone": "+1-305-123-4567"
     }
     </script>
+
+    <style>  
+  body {
+    background-color: #f8f9fa;
+  }
+  h2 {
+    color: #003B6D; /* Midnight Blue */
+  }
+  .accordion-button {
+    color: #003B6D; /* Midnight Blue */
+    background-color: #6699CC; /* Blue Sky */
+  }
+  .accordion-body {
+    color: #676767; /* Dim gray */
+  }
+  .footer-text {
+    color: #BDBDBD; /* Silver */
+  }
+
+  .image-container {
+    display: inline-block; /* Make the container shrink to fit the image */
+    text-align: center; /* Center the image and credit */
+  }
+
+  .image-credit {
+    background-color: #BDBDBD; /* Silver */
+    color: #676767; /* Dim gray */
+    font-size: 0.8em;
+    text-align: left;
+    padding: 5px; /* Add some padding */
+    margin: 0;
+    width: 100%; /* Make it the same width as the image */
+    box-sizing: border-box; /* Include padding in the width */
+  }
+
+  p {
+    text-align: left;
+  }
+</style>
   </head>
   
 
@@ -136,12 +175,120 @@
   </header>
 
 <!-- Begin page content -->
+
 <main class="flex-shrink-0">
-  <div class="container">
-    <h1 class="page-title">Template</h1>
-    <p class="lead">some text</p>    
+  <div class="container mt-4">    
+    <div class="accordion" id="dogAccordion">
+
+      <div class="accordion-item">
+  <h2 class="accordion-header" id="headingOne">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      The Domestic Dog
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#dogAccordion">
+    <div class="accordion-body text-center">
+      
+      <div class="image-container">
+        <img src="../img/dogs/domestic-dog.jpg" class="img-fluid accordion-img" alt="Domestic Dog">
+        <div class="image-credit">
+          photo by 
+          <a href="https://unsplash.com/@rwgusev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">
+          Aleksandr Gusev
+        </a> 
+          on 
+          <a href="https://unsplash.com/photos/a-close-up-of-a-dog-on-a-field-of-grass-Cw5oHdU7CTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+        </div>
+      </div>
+      
+      
+      <p>
+        The domestic dog is an extremely social animal and offers a diverse variety of choices as there are well over 300 breeds recognized by the World Canine Organization. 
+        Adopting a dog offers mutual benefits between dog and owner. Many studies cite the social benefits of having a companion as well as the reduced feelings of loneliness from adopting a dog.
+        Studies even show medical indicators such as reduced blood pressure and improved lipid profiles. 
+        If you have a dog, it is important to make sure that you care for your dog; be mindful of what you feed your dog and provide enough opportunities for exercise.
+        In this page, you will find more information about how to care for your pets throughout the various stages of their lives.</p>
+    </div>
+  </div>
+</div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Diet & Exercise
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#dogAccordion">
+          <div class="accordion-body text-center">
+
+            <!--diet-->
+            <div class="image-container">
+              <img src="../img/dogs/diet.jpg" class="img-fluid accordion-img" alt="Domestic Dog">
+              <div class="image-credit">                
+                photo by <a href="https://www.pexels.com/photo/black-and-tan-yorkshire-terrier-puppy-230785/" target="_blank">bill emrich</a>
+              </div>
+            </div>
+            
+            <p>Throughout dogs’ lifespans, they should generally be fed fewer meals as they mature. Puppies should be nursed the first two months, then introduced to three meals per day when they are about three to six months old. Their food intake should be reduced to two meals per day when they are six months to one year old and finally reduced to one meal after they reach one year old. And a dog’s typical body mass is composed of somewhere between 60 and 70 percent water. The ASPCA says just a 10 percent decrease in body water can cause illness, and a 15 percent loss can cause death, so make sure you keep your pooch hydrated!</p>
+            
+            <!--exercise-->
+            <div class="image-container">
+              <img src="../img/dogs/akira.jpg" class="img-fluid accordion-img" alt="Domestic Dog">
+              <div class="image-credit">photo by <a href="#">Teofilo Francisco</a>
+              </div>
+            </div>
+            
+
+            <p>Much like humans, dogs need to have a healthy level of activity to keep their organs healthy, as well as sun and fresh air. The minimum recommended time for exercise varies greatly with breed and size differences, but generally a range of 30–120 minutes of exercise is recommended per day! Can you imagine exercising two hours per day? OK, I know that wouldn't bother some of you reading this. But the thought of it to me makes me cringe! And by the way, exercising your dog does not mean you are being challenged to a push-up contest. Brisk walks are OK too! You can also choose from a variety of toys to encourage physical activity; just be sure they are age appropriate and do not pose a choking hazard. Pay careful attention to toys that require supervision.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Grooming & Handling
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#dogAccordion">
+          <div class="accordion-body text-center">
+
+            <!--grooming-->
+            <div class="image-container">
+              <img src="../img/dogs/grooming.jpg" class="img-fluid accordion-img" alt="dog being groomed">              
+              <div class="image-credit">photo by <a href="https://www.pexels.com/photo/a-dog-showing-tongue-while-grooming-6816860/" target="_blank">Gustavo Fring</a>
+              </div>
+            </div>
+            
+            <p>Keeping your furry family member clean is important to its health. So be sure to brush frequently to reduce the amount of shedding and prevent matted and tangled fur that can prove to be extremely difficult to remove. Check for insects such as ticks and fleas, especially after visiting heavily wooded areas. Bathing is not only important to your dog’s health but can be an exercise depending on how strong willed the dog is. Rinse all of the soap out, as any residual soap can result in a rash. Be sure the soap is formulated for your puppy or dog, since harsh soaps can cause allergic reactions. And as always, be careful how you handle your loved one. No matter the size of your dog, you need to be cautious as you carry your canine. If you have a small dog, then cradle the pup with one hand under the chest and the forearm supporting the back half. If it is a large dog, reach under the belly with both your arms perpendicular to the dog, and use each arm to support the chest and rear as you lift.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Vaccinations & Medications
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#dogAccordion">
+          <div class="accordion-body text-center">
+
+            <!--vaccinations-->
+            <div class="image-container">
+              <img src="../img/dogs/vaccinations.jpg" class="img-fluid accordion-img" alt="veterinarian vaccinating a dog">                
+              <div class="image-credit">photo by <a href="https://www.pexels.com/photo/man-with-woman-checking-on-a-dog-7469214/ " target="_blank">Mikhail Nilov</a>
+              </div>
+            </div>
+            
+            <p>You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended. Vaccines that reduce the exposure risk to things such as hepatitis, rabies, and parvovirus. Others may be determined by your vet depending on the environment in which the dog resides. Some of these include Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
+
 
 <footer class="footer mt-auto py-3">
   <div class="container">
