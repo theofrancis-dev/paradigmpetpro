@@ -261,10 +261,19 @@ button:hover {
 }
 
 
+@media (max-width:550px){
+    #black-cat-img {
+        display: none;
+    }
+}
+
+.photo-references a{
+    color: #003B6D;
+}
 
 
 /* Mobile Adjustments */
-@media (max-width: 700px) {
+@media (max-width: 849px) {
     #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {
         display: none;
     }
@@ -288,9 +297,9 @@ button:hover {
     }
 }
 
-@media  (min-width: 701px ){
+@media (min-width: 850px){
     #sm-screens-contact-img {
-        display: none;
+        display:none;
     }
-
+    
 }
