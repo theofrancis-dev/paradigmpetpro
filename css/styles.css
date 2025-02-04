@@ -271,6 +271,9 @@ button:hover {
     color: #003B6D;
 }
 
+.home-card {
+    min-height: 796px;
+}
 
 /* Mobile Adjustments */
 @media (max-width: 849px) {
