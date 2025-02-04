@@ -1,0 +1,72 @@
+.about-page {
+    background-color: #6699CC; /* Blue Sky for a light, airy feel */
+    padding: 2rem 0;
+    border-radius: 10px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  .page-title {
+    color: #003B6D; /* Midnight Blue for headers */
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .title-divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #676767, rgba(0, 0, 0, 0)); /* Dim Gray for subtle division */
+  }
+  
+  .company-slogan, .brand-values, .services-offered {
+    background: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #003B6D; /* Midnight Blue for emphasis */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .company-slogan p, .brand-values p, .services-offered p {
+    line-height: 1.6;
+    color: #676767; /* Dim Gray for text color */
+    
+  }
+  
+  .company-slogan {
+    text-align: center;
+  }
+
+  .brand-values, .services-offered{
+    text-align: justify;
+  }
+  .photo-references {
+    font-size: 0.8em;
+    color: #BDBDBD; /* Silver for footer text */
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  .photo-references a {
+    color: #003B6D; /* Midnight Blue for links */
+    text-decoration: none;
+  }
+  
+  .photo-references a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 0.5rem;
+    }
+    
+    .page-title {
+      font-size: 2em;
+    }
+  }
