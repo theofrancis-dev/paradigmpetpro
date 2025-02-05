@@ -1,292 +1,497 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Paradigm Pet Professionals | Compassionate Veterinary Care</title>
-    
-    <meta name="description" content="Paradigm Pet Professionals offers expert veterinary care for dogs, cats, and birds. Book an appointment today for compassionate pet health services.">
-    <meta name="keywords" content="pet care, veterinary, dogs, cats, birds, pet health, Paradigm Pet Professionals">
-    <meta name="author" content="AIquilibrium">
-    <meta name="Last-Modified" content="2025-02-04T10:30:00Z">
-    
+
+    <meta
+      name="description"
+      content="Paradigm Pet Professionals offers expert veterinary care for dogs, cats, and birds. Book an appointment today for compassionate pet health services."
+    />
+    <meta
+      name="keywords"
+      content="pet care, veterinary, dogs, cats, birds, pet health, Paradigm Pet Professionals"
+    />
+    <meta name="author" content="AIquilibrium" />
+    <meta name="Last-Modified" content="2025-02-04T10:30:00Z" />
+
     <!-- Canonical URL (Prevents duplicate content issues) -->
-    <link rel="canonical" href="https://theofrancis-dev.github.io/paradigmpetpro/">
-    
+    <link
+      rel="canonical"
+      href="https://theofrancis-dev.github.io/paradigmpetpro/"
+    />
+
     <!-- Open Graph (Facebook/Twitter preview) -->
-    <meta property="og:title" content="Paradigm Pet Professionals">
-    <meta name="description" content="Paradigm Pet Professionals provides evidence-based pet care advice for every pet lover. With 12 years of experience, we offer virtual consultations and educational presentations on pet health and nutrition.">
-    <meta property="og:image" content="https://theofrancis-dev.github.io/paradigmpetpro//img/banner/125/brand.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://theofrancis-dev.github.io/paradigmpetpro/">
-    
+    <meta property="og:title" content="Paradigm Pet Professionals" />
+    <meta
+      name="description"
+      content="Paradigm Pet Professionals provides evidence-based pet care advice for every pet lover. With 12 years of experience, we offer virtual consultations and educational presentations on pet health and nutrition."
+    />
+    <meta
+      property="og:image"
+      content="https://theofrancis-dev.github.io/paradigmpetpro//img/banner/125/brand.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://theofrancis-dev.github.io/paradigmpetpro/"
+    />
+
     <!-- Twitter Card (Better link previews on Twitter) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Paradigm Pet Professionals">
-    <meta name="twitter:description" content="Paradigm Pet Professionals provides evidence-based pet care advice for every pet lover. 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Paradigm Pet Professionals" />
+    <meta
+      name="twitter:description"
+      content="Paradigm Pet Professionals provides evidence-based pet care advice for every pet lover. 
                                               With 12 years of experience, we offer virtual consultations and educational 
-                                              presentations on pet health and nutrition.">
-    <meta name="twitter:image" content="https://theofrancis-dev.github.io/paradigmpetpro/img/banner/125/brand.jpg">
-    
+                                              presentations on pet health and nutrition."
+    />
+    <meta
+      name="twitter:image"
+      content="https://theofrancis-dev.github.io/paradigmpetpro/img/banner/125/brand.jpg"
+    />
+
     <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/pet-styles.css">
-  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/pet-styles.css" />
+
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <meta name="theme-color" content="#003B6D">
-  
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <meta name="theme-color" content="#003B6D" />
+
     <!-- Schema.org Markup (For Google SEO Enhancements) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://theofrancis-dev.github.io/paradigmpetpro/",
-      "@type": "VeterinaryCare",
-      "name": "Paradigm Pet Professionals",
-      "description": "Expert veterinary care for dogs, cats, and birds.",
-      "image": "https://https:/theofrancis-dev.github.io/paradigmpetpro/img/banner/125/brand.jpg",
-      "url": "https://https://theofrancis-dev.github.io/paradigmpetpro/",
+      {
+        "@context": "https://theofrancis-dev.github.io/paradigmpetpro/",
+        "@type": "VeterinaryCare",
+        "name": "Paradigm Pet Professionals",
+        "description": "Expert veterinary care for dogs, cats, and birds.",
+        "image": "https://https:/theofrancis-dev.github.io/paradigmpetpro/img/banner/125/brand.jpg",
+        "url": "https://https://theofrancis-dev.github.io/paradigmpetpro/",
 
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "600 Biscayne Boulevard",
-        "addressLocality": "Miami",
-        "addressRegion": "FL",
-        "postalCode": "33132",
-        "addressCountry": "US"
-      },
-      "telephone": "+1-305-123-4567"
-    }
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "600 Biscayne Boulevard",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "postalCode": "33132",
+          "addressCountry": "US"
+        },
+        "telephone": "+1-305-123-4567"
+      }
     </script>
   </head>
-  
 
-<body class="d-flex flex-column h-100">
-  <header>  
-   
-    <div class="banner-container">      
-      <div id="banner-top">        
-        <img id="logo-img" src="../img/banner/125/logo.jpg" alt="Paradigm Pet Professionalslogo">
-        <img id="brand-img" src="../img/banner/125/brand.jpg" alt="Paradigm Pet Professionals brand">    
-        <img id="pet-img-1" src="../img/banner/125/1.jpg" alt="Pet Image">
-        <img id="pet-img-2" src="../img/banner/125/2.jpg" alt="Pet Image">
-        <img id="pet-img-3" src="../img/banner/125/3.jpg" alt="Pet Image">
-        <img id="pet-img-4" src="../img/banner/125/4.jpg" alt="Pet Image">
-        <img id="pet-img-5" src="../img/banner/125/5.jpg" alt="Pet Image">
-        <img id="pet-img-6" src="../img/banner/125/6.jpg" alt="Pet Image">
-      </div>
+  <body class="d-flex flex-column h-100">
+    <header>
+      <div class="banner-container">
+        <div id="banner-top">
+          <img
+            id="logo-img"
+            src="../img/banner/125/logo.jpg"
+            alt="Paradigm Pet Professionalslogo"
+          />
+          <img
+            id="brand-img"
+            src="../img/banner/125/brand.jpg"
+            alt="Paradigm Pet Professionals brand"
+          />
+          <img id="pet-img-1" src="../img/banner/125/1.jpg" alt="Pet Image" />
+          <img id="pet-img-2" src="../img/banner/125/2.jpg" alt="Pet Image" />
+          <img id="pet-img-3" src="../img/banner/125/3.jpg" alt="Pet Image" />
+          <img id="pet-img-4" src="../img/banner/125/4.jpg" alt="Pet Image" />
+          <img id="pet-img-5" src="../img/banner/125/5.jpg" alt="Pet Image" />
+          <img id="pet-img-6" src="../img/banner/125/6.jpg" alt="Pet Image" />
+        </div>
 
-      <div id="banner-bottom">        
-        <img id="pet-img-7" src="../img/banner/125/7.jpg" alt="Pet Image"> 
-        <img id="pet-img-8" src="../img/banner/125/8.jpg" alt="Pet Image">
-        <img id="pet-img-9" src="../img/banner/125/9.jpg" alt="Pet Image">
-        <img id="pet-img-10" src="../img/banner/125/10.jpg" alt="Pet Image">
-        <img id="pet-img-11" src="../img/banner/125/11.jpg" alt="Pet Image">
-        <img id="pet-img-12" src="../img/banner/125/12.jpg" alt="Pet Image">
-        <img id="pet-img-13" src="../img/banner/125/13.jpg" alt="Pet Image">
-        <img id="pet-img-14" src="../img/banner/125/14.jpg" alt="Pet Image">
+        <div id="banner-bottom">
+          <img id="pet-img-7" src="../img/banner/125/7.jpg" alt="Pet Image" />
+          <img id="pet-img-8" src="../img/banner/125/8.jpg" alt="Pet Image" />
+          <img id="pet-img-9" src="../img/banner/125/9.jpg" alt="Pet Image" />
+          <img id="pet-img-10" src="../img/banner/125/10.jpg" alt="Pet Image" />
+          <img id="pet-img-11" src="../img/banner/125/11.jpg" alt="Pet Image" />
+          <img id="pet-img-12" src="../img/banner/125/12.jpg" alt="Pet Image" />
+          <img id="pet-img-13" src="../img/banner/125/13.jpg" alt="Pet Image" />
+          <img id="pet-img-14" src="../img/banner/125/14.jpg" alt="Pet Image" />
+        </div>
       </div>
-    </div>
 
       <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md  fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Paradigm Pet Professionals</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./dogs.html">Dogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  active" href="./cats.html">Cats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./birds.html">Birds</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../about/index.html">About</a>
-            </li>
+      <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            >Paradigm Pet Professionals</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dogs.html">Dogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./cats.html">Cats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./birds.html">Birds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about/index.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                id="btn-search"
+                class="btn btn-outline-success"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
 
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button id="btn-search" class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          
-          <!-- Pushes "Book a Consultation" button to the far right -->
-          <a id="btn-consultation" href="../services/consultations.html" class="btn btn-outline-success ms-3">Book a Consultation</a>
+            <!-- Pushes "Book a Consultation" button to the far right -->
+            <a
+              id="btn-consultation"
+              href="../services/consultations.html"
+              class="btn btn-outline-success ms-3"
+              >Book a Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
 
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container mt-4">
+        <div class="accordion" id="dogAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                The Domestic Cat
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#dogAccordion"
+            >
+              <div class="accordion-body text-center">
+                <div class="image-container">
+                  <img
+                    src="../img/cats/domestic-cat.jpg"
+                    class="img-fluid accordion-img"
+                    alt="Domestic Cat"
+                  />
+
+                  <div class="image-credit">
+                    Photo by:
+                    <a
+                      href="https://www.pexels.com/photo/gray-and-white-maine-coon-cat-beside-brown-wicker-basket-208773/"
+                      target="_blank"
+                    >
+                      Pixabay
+                    </a>
+                  </div>
+                </div>
+
+                <p>
+                  Cats were first domesticated around 7500 BCE in the western
+                  Asia region and are currently the second most popular domestic
+                  pet in the United States. While there are over 60 unique
+                  documented cat breeds, care and diet can differ between
+                  breeds. However, some diets and practices are generally
+                  recommended for the well-being of your fluffy family member
+                  regardless of breed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Zero to Four Weeks
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#dogAccordion"
+            >
+              <div class="accordion-body text-center">
+                <!--diet-->
+                <div class="image-container">
+                  <img
+                    src="../img/cats/cat-4weeks.jpg"
+                    class="img-fluid accordion-img"
+                    alt="Domestic Cat"
+                  />
+                  <div class="image-credit">
+                    photo by
+                    <a
+                      href="https://www.pexels.com/photo/close-up-photo-of-person-holding-white-kitten-1444321/ "
+                      target="_blank"
+                      >Cats Coming</a
+                    >
+                  </div>
+                </div>
+
+                <p>
+                  It is important the queen (a term commonly used for a female
+                  cat that is either pregnant or nursing) directly nurse her
+                  young if possible. Monitor your kitten’s growth closely to
+                  make sure its growth rate is progressing steadily. If any
+                  kitten is not growing at a sufficient rate, a caretaker might
+                  need to feed the kitten directly either with a bottle or a
+                  feeding tube. Some reasons why kittens might not gain weight
+                  appropriately include the following: • too many other siblings
+                  are competing for mom's milk • gastrointestinal disease •
+                  environmental conditions such as extreme heat or cold, or
+                  unsanitary conditions
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Four Weeks to One Year
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#dogAccordion"
+            >
+              <div class="accordion-body text-center">
+                <!--grooming-->
+                <div class="image-container">
+                  <img
+                    src="../img/cats/cat-4wto1yr.jpg"
+                    class="img-fluid accordion-img"
+                    alt="assorted color kittens"
+                  />
+                  <div class="image-credit">
+                    Photo by
+                    <a
+                      href="https://www.pexels.com/photo/assorted-color-kittens-45170/"
+                      target="_blank"
+                      >Pixabay</a
+                    >
+                  </div>
+                </div>
+
+                <p>
+                  Kittens can start being introduced to soft wet kitten food
+                  typically around three to four weeks after birth. According to
+                  the ASPCA, kittens at this age should eat half to one cup of
+                  dry kitten food or six to nine ounces of wet kitten food per
+                  day. If your kitten has difficulties eating hard food, a small
+                  amount of water can be added to soften the food. Cat food that
+                  is optimized for kittens provides the additional nutrients
+                  that are needed for growth, energy, and wellness. Depending on
+                  the breed, your cat may have different dietary requirements.
+                  You should always consult with your veterinarian for
+                  recommendations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                One Year to Seven Years
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#dogAccordion"
+            >
+              <div class="accordion-body text-center">
+                <!--vaccinations-->
+                <div class="image-container">
+                  <img
+                    src="../img/cats/cat-1yrto7yr.jpg"
+                    class="img-fluid accordion-img"
+                    alt="yellow cat resting"
+                  />
+                  <div class="image-credit">
+                    Photo by
+                    <a
+                      href="https://www.pexels.com/photo/orange-cat-on-top-of-yellow-textile-1629066/ "
+                      target="_blank"
+                      >Hiang Kanjinna</a
+                    >
+                  </div>
+                </div>
+
+                <p>
+                  This age is when kittens reach the cat stage and do not need
+                  as many nutrients. At this age, their level of activity
+                  decreases, and so does their metabolism. It is not recommended
+                  to leave food out for the cats all day. Instead, provide food
+                  a couple times a day so they eat meals rather than snacking
+                  throughout the day. This practice reduces the risk of obesity
+                  and other weight-related feline ailments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFifth">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFifth"
+                aria-expanded="false"
+                aria-controls="collapseFifth"
+              >
+                Seven Years and More
+              </button>
+            </h2>
+            <div
+              id="collapseFifth"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFifth"
+              data-bs-parent="#dogAccordion"
+            >
+              <div class="accordion-body text-center">
+                <!--Seven Years and More-->
+                <div class="image-container">
+                  <img
+                    src="../img/cats/seven-older.jpg"
+                    class="img-fluid accordion-img"
+                    alt="Older Cat"
+                  />
+                  <div class="image-credit">
+                    photo by
+                    <a
+                      href="https://www.pexels.com/photo/old-ginger-cat-14605080/"
+                      target="_blank"
+                      >Beyzaa Yurtkuran</a
+                    >
+                  </div>
+                </div>
+
+                <p>
+                  This age is when kittens reach the cat stage and do not need
+                  as many nutrients. At this age, their level of activity
+                  decreases, and so does their metabolism. It is not recommended
+                  to leave food out for the cats all day. Instead, provide food
+                  a couple times a day so they eat meals rather than snacking
+                  throughout the day. This practice reduces the risk of obesity
+                  and other weight-related feline ailments.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+    </main>
 
-  </header>
-
-<!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container mt-4">    
-    <div class="accordion" id="dogAccordion">
-
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          The Domestic Cat
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#dogAccordion">
-        <div class="accordion-body text-center">      
-      <div class="image-container">
-        <img src="../img/cats/domestic-cat.jpg" class="img-fluid accordion-img" alt="Domestic Cat">
-        
-        <div class="image-credit">
-          Photo by:
-          <a href="https://www.pexels.com/photo/gray-and-white-maine-coon-cat-beside-brown-wicker-basket-208773/" target="_blank">
-            Pixabay
-          </a>           
-        </div>
-      </div>
-            
-        <p>
-          Cats were first domesticated around 7500 BCE in the western Asia region and are currently the second most popular domestic pet in the United States.
-           While there are over 60 unique documented cat breeds, care and diet can differ between breeds. However, some diets and practices are generally
-            recommended for the well-being of your fluffy family member regardless of breed.
+    <footer class="footer mt-auto py-3">
+      <!--<span class="text-muted">&copy teofrancis-dev, feb 5, 2025</span>-->
+      <div class="container text-center">
+        <p style="text-align: center">
+          <strong>Paradigm Pet Professionals</strong> | Evidence-based pet care
+          advice for every pet lover
         </p>
-
-       </div>
-
-    </div>
-  </div>
-
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Zero to Four Weeks
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#dogAccordion">
-          <div class="accordion-body text-center">
-
-            <!--diet-->
-            <div class="image-container">
-              <img src="../img/cats/cat-4weeks.jpg" class="img-fluid accordion-img" alt="Domestic Cat">
-              <div class="image-credit">                             
-                photo by <a href="https://www.pexels.com/photo/close-up-photo-of-person-holding-white-kitten-1444321/ " target="_blank">Cats Coming</a>
-              </div>
-            </div>
-            
-            <p>
-              It is important the queen (a term commonly used for a female cat that is either pregnant or nursing) directly nurse her young if possible. Monitor your kitten’s growth closely to make sure its growth rate is progressing steadily. If any kitten is not growing at a sufficient rate, a caretaker might need to feed the kitten directly either with a bottle or a feeding tube. Some reasons why kittens might not gain weight appropriately include the following:
-              •	too many other siblings are competing for mom's milk
-              •	gastrointestinal disease
-              •	environmental conditions such as extreme heat or cold, or unsanitary conditions              
-			      </p>            
-			</div>
-        </div>
+        <p style="text-align: center">
+          &copy; 2025 theofrancis-dev. All rights reserved.
+        </p>
       </div>
+    </footer>
 
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Four Weeks to One Year
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#dogAccordion">
-          <div class="accordion-body text-center">
-
-            <!--grooming-->
-            <div class="image-container">
-              <img src="../img/cats/cat-4wto1yr.jpg" class="img-fluid accordion-img" alt="assorted color kittens">                
-              <div class="image-credit">Photo by <a href="https://www.pexels.com/photo/assorted-color-kittens-45170/" target="_blank">Pixabay</a>
-              </div>
-            </div>
-            
-            <p>
-              Kittens can start being introduced to soft wet kitten food typically around three to four weeks after birth. According to the ASPCA, kittens at this age should eat half to one cup of dry kitten food or six to nine ounces of wet kitten food per day. If your kitten has difficulties eating hard food, a small amount of water can be added to soften the food. Cat food that is optimized for kittens provides the additional nutrients that are needed for growth, energy, and wellness. Depending on the breed, your cat may have different dietary requirements. You should always consult with your veterinarian for recommendations.
-			      </p>			
-			    </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            One Year to Seven Years
-          </button>
-        </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#dogAccordion">
-          <div class="accordion-body text-center">
-
-            <!--vaccinations-->
-            <div class="image-container">
-              <img src="../img/cats/cat-1yrto7yr.jpg" class="img-fluid accordion-img" alt="yellow cat resting">                      
-              <div class="image-credit">Photo by <a href="https://www.pexels.com/photo/orange-cat-on-top-of-yellow-textile-1629066/ " target="_blank">Hiang Kanjinna</a>
-              </div>
-            </div>
-            
-            <p>
-              This age is when kittens reach the cat stage and do not need as many nutrients. At this age, their level of activity decreases, and so does their metabolism. It is not recommended to leave food out for the cats all day. Instead, provide food a couple times a day so they eat meals rather than snacking throughout the day. This practice reduces the risk of obesity and other weight-related feline ailments.
-			      </p>
-			    </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFifth">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
-            Seven Years and More
-          </button>
-        </h2>
-        <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#dogAccordion">
-          <div class="accordion-body text-center">
-
-            <!--Seven Years and More-->
-            <div class="image-container">
-              <img src="../img/cats/seven-older.jpg" class="img-fluid accordion-img" alt="Older Cat">                         
-              <div class="image-credit">photo by <a href="https://www.pexels.com/photo/old-ginger-cat-14605080/" target="_blank">Beyzaa Yurtkuran</a>
-              </div>
-            </div>
-            
-            <p>
-              This age is when kittens reach the cat stage and do not need as many nutrients. At this age, their level of activity decreases, and so does their metabolism. It is not recommended to leave food out for the cats all day. Instead, provide food a couple times a day so they eat meals rather than snacking throughout the day. This practice reduces the risk of obesity and other weight-related feline ailments.
-			      </p>
-			    </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</main>
-
-<footer class="footer mt-auto py-3">
-  
-  <!--<span class="text-muted">&copy teofrancis-dev, feb 5, 2025</span>-->
-  <div class="container text-center">
-    <p><strong>Paradigm Pet Professionals</strong> | Evidence-based pet care advice for every pet lover</p>
-    <p>&copy; 2025 theofrancis-dev. All rights reserved.</p>
-</div>
-
-</footer>
-
-
-<!-- JavaScript for swapping images -->
-<script src="../js/banner-swap-v3.js"></script>
-<!-- Bootstrap JS (with Popper.js included) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+    <!-- JavaScript for swapping images -->
+    <script src="../js/banner-swap-v3.js"></script>
+    <!-- Bootstrap JS (with Popper.js included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
