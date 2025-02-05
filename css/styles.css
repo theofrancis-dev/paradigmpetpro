@@ -289,6 +289,21 @@ footer div p {
     text-align: center;
 }
 
+.social-links {
+    margin-top: 10px; /* Add some spacing above the icons */
+}
+
+.social-links a {
+    margin: 0 5px; /* Add spacing between icons */
+    display: inline-block; /* Prevent icons from stacking vertically */
+}
+
+.social-links img {
+    /* Add any other styling for the icons (e.g., border radius) */
+    width: 25px;
+    height: 25px;
+}
+
 /* Mobile Adjustments */
 @media (max-width: 849px) {
     #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {
