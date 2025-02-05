@@ -293,9 +293,19 @@ footer div p {
     margin-top: 10px; /* Add some spacing above the icons */
 }
 
+.social-links:hover {
+    cursor: pointer;
+}
 .social-links a {
     margin: 0 5px; /* Add spacing between icons */
     display: inline-block; /* Prevent icons from stacking vertically */
+}
+.social-links a {
+    transition: transform 0.2s ease-in-out; /* Add a transition for smooth effect */
+}
+
+.social-links a:hover {
+    transform: scale(1.5); /* Scale up slightly on hover */
 }
 
 .social-links img {
