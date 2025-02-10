@@ -21,12 +21,23 @@ document.addEventListener("DOMContentLoaded", function () {
         img1.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
         img2.style.transform = `translate(${-deltaX}px, ${-deltaY}px)`;
 
-        // After animation, swap images and reset positions
+        // After animation, swap images and their parent <a> elements
         setTimeout(() => {
+            // Swap the images
             let tempSrc = img1.src;
             img1.src = img2.src;
             img2.src = tempSrc;
 
+            // Swap the parent <a> elements
+            let parent1 = img1.parentElement;
+            let parent2 = img2.parentElement;
+
+            // Swap the href attributes
+            let tempHref = parent1.href;
+            parent1.href = parent2.href;
+            parent2.href = tempHref;
+
+            // Reset styles
             img1.style.transition = "";
             img2.style.transition = "";
             img1.style.transform = "";

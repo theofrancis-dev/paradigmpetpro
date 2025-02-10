@@ -11,6 +11,8 @@ main {
     margin-top: 20px;
 }
 /* Header & Banner Styling */
+
+/* Banner Container */
 .banner-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,10 +21,34 @@ main {
     background-color: #003B6D; /* Midnight Blue */
     padding: 10px;
     text-align: center;
-    position: sticky; 
+    position: sticky;
     top: 0;
     z-index: 10;
     margin-bottom: 1px; /* Adjust if needed */
+}
+
+/* Banner Top and Bottom Sections */
+#banner-top,
+#banner-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*gap: 10px; /* Adds spacing between items */
+    width: 100%; /* Ensures the container takes full width */
+}
+
+/* Individual Image Containers */
+#banner-top > div,
+#banner-bottom > div {
+    flex: 0 0 auto; /* Prevents flex items from growing or shrinking */
+    display: inline-block; /* Ensures the divs behave like inline elements */
+}
+
+/* Image Styling */
+#banner-top img,
+#banner-bottom img {
+    max-width: 100%; /* Ensures images don't overflow their containers */
+    height: auto; /* Maintains aspect ratio */
 }
 
 /* Headings */
@@ -314,6 +340,18 @@ footer div p {
     height: 25px;
 }
 
+/* Hover Effect for Images */
+.banner-container div > a > img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.banner-container div > a > img:hover {
+    /*transform: scale(1.1); /* Example: Scale up on hover */
+    transform: rotate(5deg); /* Rotate the image by 5 degrees */
+    /*transform: translateY(-5px); /* Move the image up by 5 pixels */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    /*transform: scale(1.1) rotate(5deg); /* Scale and rotate */
+}
 /* Mobile Adjustments */
 @media (max-width: 849px) {
     #pet-img-3, #pet-img-4, #pet-img-5, #pet-img-6 {
