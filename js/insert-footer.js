@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
             <p>&copy; 2025 theofrancis-dev. All rights reserved.</p>
             <!--site map-->
             <p>
-                <a href="../index.html">home</a>
-                <a href="../pets/dogs.html">dog</a>
-                <a href="../pets/cats.html">cat</a>
-                <a href="../pets/birds.html">birds</a>
-                <a href="../about/index.html">about</a>
-                <a href="./consultations.html">consult</a>
+                <a href="../index.html">home</a> | 
+                <a href="../pets/dogs.html">dog</a> | 
+                <a href="../pets/cats.html">cat</a> | 
+                <a href="../pets/birds.html">birds</a> | 
+                <a href="../about/index.html">about</a> | 
+                <a href="../services/consultations.html">consult</a> |
             </p>
 
             <!--social links-->
